@@ -54,7 +54,11 @@ public class TesteTesteTeste {
 	
 	}while(type.charAt(0)!='N');
 	
-	System.out.println("\nPROGRAMA ENCERRADO\n");
+	System.out.println("\nPROGRAMA: PESQUISANDO VALOR, ENCERRADO\n");
+	 
+	for (int i : vect) {
+		
+	}
 	
 	
 	sc.close();
