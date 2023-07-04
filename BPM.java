@@ -1,12 +1,7 @@
 package poo;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Locale;
-import java.util.Scanner;
 
-import entities.BpmClass;
 
 public class BPM {
 
@@ -14,7 +9,7 @@ public class BPM {
 		// TODO Auto-generated method stub
 
 		Locale.setDefault(Locale.US);
-		Scanner sc = new Scanner(System.in);
+		//Scanner sc = new Scanner(System.in);
 
 		System.out.println("\nCOMBINAÇÃO SIMPLES:");
 
@@ -22,7 +17,6 @@ public class BPM {
 		double fatorial1 = 1;
 		double fatorial2 = 1;
 		double fatorial3 = 1;
-		String type2;
 		double n = 60;
 		double m = 6;
 		double aux2 = n - m;
@@ -56,7 +50,7 @@ public class BPM {
 		
 		n = fatorial1 / (fatorial2 * fatorial3);
 		
-		Integer[] vect = new Integer[n];
+	
 	
 	
 	
